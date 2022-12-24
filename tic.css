@@ -1,0 +1,128 @@
+
+/* CSS Code */
+/* Heading */
+h1 {
+    color:#FFFFFF;
+    font-size: 45px;
+}
+
+#scoreindicatorX{
+    position:absolute;
+    width:40px;
+    color:#FFFFFF;
+    font-size:40px;
+    text-align:left;
+    margin-left:35%;
+}
+#scoreindicatorO {
+    position:absolute;
+    width: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 60%;
+}
+
+#scoreX{
+    position:absolute;
+    color:#FFFFFF;
+    font-size:45px;
+    text-align:left;
+    margin-left:38%;
+    margin-top:20px;
+}
+
+#scoreO {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: right;
+    margin-left: 63%;
+    margin-top: 20px;
+}
+
+#gridformat{
+    height:100px;
+}
+/* 3*3 Grid */
+#grid1,
+#grid2,
+#grid3,
+#grid4,
+#grid5,
+#grid6,
+#grid7,
+#grid8,
+#grid9 {
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight:bold;
+    text-align: center;
+    color:#FFFFFF;
+    background-color:#000000;
+}
+
+#grid1:hover,
+#grid2:hover,
+#grid3:hover,
+#grid4:hover,
+#grid5:hover,
+#grid6:hover,
+#grid7:hover,
+#grid8:hover,
+#grid9:hover {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    background-color:rgb(193, 193, 193);
+    opacity:0.5;
+    font-size: 80px;
+    text-align: center;
+    transition:0.8;
+}
+/* Reset Button */
+#resetbutton {
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Arial;
+    background-color: rgb(142, 2, 2);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#resetbutton:hover{
+    background-color: rgb(89, 0, 0);
+}
+
+/* Player turn space */
+#print {
+    font-family: Arial;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Arial;
+
+    color:#FFFFFF;
+    font-size: 17px;
+}
+
+body{
+    background-color:#000000;
+}
